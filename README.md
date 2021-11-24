@@ -13,7 +13,7 @@ It is a basic app to expose the sample dataset using Django.
 
  1. Clone the repository ```git clone https://github.com/gedomer/adjust_task.git```
  2. Create and active your python3 environment
- 3. Install requirements ```python manage.py -r requirements/dev.txt```
+ 3. Install requirements ```cd adjust_task && pip install -r requirements/dev.txt```
  4. Copy example env file in ```"config/"``` into root of project as .env.
  5. Run ```python manage.py migrate```
  6. Create initial data: ```python manage.py import_metrics --file=dataset_path.```
